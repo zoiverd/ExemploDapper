@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Cliente]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+	[Nome] VARCHAR(100) NOT NULL,
+	[Email] VARCHAR(100) NOT NULL,
+	[Telefone] NUMERIC(11) NOT NULL
+);
